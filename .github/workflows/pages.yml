@@ -3,9 +3,6 @@ name: Publish legal pages
 on:
   push:
     branches: [main]
-    paths:
-      - legal-site/**
-      - .github/workflows/legal-pages.yml
   workflow_dispatch:
 
 permissions:
